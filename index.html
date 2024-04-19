@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <title>Normiesite</title>
+</head>
+
+<body class="b">
+  <p id="t1">Hello there! <span id="s1">I am Harshit</span></p>
+  <img id="im" src="me.png" height="350" width="350">
+  <div id="container">
+    <p id="t2">Hey there! I am Harshit, a guy passionate about the world of Internet. I was just a loner in coding until
+      2020 when i attended my very first hackathon. Epoch, being my first hackathon could not have been more better than
+      what i imagined hackathons to be. I met many young hackers and it was the perfect start for a new year. Apart from
+      my interest in coding, I am a book reader and a supporter of democracy.</p>
+  </div>
+  <button id="b1" onclick="scrollToBottom()"><span>More Info</span></button>
+  <a href="https://discordapp.com/users/776798961607770133"><img id="img2" src="dc.png" height="60" width="60"></a>
+  <a href="https://www.linkedin.com/in/harshit-yadav-b0020829a/"><img id="img3" src="ln.png" height="60" width="60"></a>
+  <a href="mailto:darknode369@gmail.com"><img id="img4" src="gm.png" height="60" width="60"></a>
+  <a href="https://github.com/TGH75972"><img id="img5" src="git.png" height="60" width="60"></a>
+  <script>
+    function scrollToBottom() {
+      const bodyHeight = document.body.scrollHeight;
+      window.scrollTo({
+        top: bodyHeight,
+        behavior: 'smooth'
+      });
+    }
+  </script>
+</body>
+
+</html>
