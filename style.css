@@ -46,6 +46,7 @@
     width: 240px;
     border-radius: 25px;
     background-color: rgb(49, 47, 47);
+    margin: 20px;
     border-color: grey;
     outline: none;
     border-style: dashed;
