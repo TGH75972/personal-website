@@ -1,6 +1,6 @@
 .b{
         background-color: black;
-        overflow: hidden;
+        
     }
 
     #t1{
@@ -42,7 +42,6 @@
     font-size: 30px;
     color: grey;
     left: 750px;
-    bottom: 70px;
     height: 100px;
     width: 240px;
     border-radius: 25px;
@@ -50,7 +49,7 @@
     margin: 20px;
     border-color: grey;
     outline: none;
-    border-style: dashed;
+    border-style: groove;
     transition: box-shadow 0.2s ease-in;
 }
 #b1:hover{
