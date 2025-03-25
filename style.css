@@ -1,5 +1,6 @@
 .b{
         background-color: black;
+        overflow: hidden;
     }
 
     #t1{
@@ -41,7 +42,7 @@
     font-size: 30px;
     color: grey;
     left: 750px;
-    bottom: 100px;
+    bottom: 105px;
     height: 100px;
     width: 240px;
     border-radius: 25px;
