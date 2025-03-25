@@ -40,6 +40,7 @@
 #b1{
     position: absolute;
     font-size: 30px;
+    bottom: 10px;   
     color: grey;
     left: 750px;
     height: 100px;
